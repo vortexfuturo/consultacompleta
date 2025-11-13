@@ -24,59 +24,41 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-xl mx-auto">
-        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
+    <div className="min-h-screen bg-neutral-200 flex items-center justify-center p-4">
+      <div className="w-full max-w-lg mx-auto bg-white shadow-lg">
 
-          <div className="bg-gradient-to-r from-emerald-500 to-teal-600 px-8 py-12 text-center">
-            <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg">
-                <svg className="w-12 h-12 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-            </div>
-
-            <h1 className="text-3xl font-bold text-white mb-3">
-              Pagamento Confirmado!
-            </h1>
-
-            <div className="flex justify-center">
-              <div className="bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full">
-                <p className="text-white font-semibold text-lg">✓ 100% Aprovado</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="px-8 py-12 text-center">
-            <div className="space-y-4 mb-10">
-              <h2 className="text-2xl font-semibold text-slate-800 leading-relaxed">
-                Pagamento confirmado meu bem ❤
-              </h2>
-              <p className="text-xl text-slate-600 leading-relaxed">
-                Pronta para começar sua leitura?
-              </p>
-            </div>
-
-            <div className="flex justify-center">
-              <div className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-50 to-teal-50 text-emerald-700 px-8 py-4 rounded-xl border-2 border-emerald-200 shadow-sm">
-                <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
-                <p className="font-semibold text-lg leading-relaxed">
-                  Retorne ao WhatsApp e vamos dar início
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-slate-50 px-8 py-6 border-t border-slate-200 text-center">
-            <p className="text-slate-500 text-xs">
-              Todos os direitos reservados - Vortex Futuro 2025 ©
-            </p>
-          </div>
-
+        <div className="bg-neutral-700 px-6 py-8 text-center">
+          <h1 className="text-2xl font-bold text-white uppercase tracking-wide mb-2">
+            PÁGINA DE CONFIRMAÇÃO
+          </h1>
+          <h2 className="text-xl font-bold text-white uppercase tracking-wide">
+            DE PAGAMENTO!
+          </h2>
         </div>
+
+        <div className="bg-lime-500 px-6 py-6 text-center">
+          <p className="text-2xl font-bold text-white uppercase tracking-wide">
+            Pagamento confirmado! 100%
+          </p>
+        </div>
+
+        <div className="bg-white px-6 py-16"></div>
+
+        <div className="bg-lime-500 px-6 py-8 text-center">
+          <p className="text-3xl font-bold text-white uppercase tracking-wide leading-tight">
+            PAGAMENTO
+          </p>
+          <p className="text-3xl font-bold text-white uppercase tracking-wide leading-tight">
+            CONFIRMADO!
+          </p>
+        </div>
+
+        <div className="bg-white px-6 py-16 text-center">
+          <p className="text-sm text-slate-700 mb-2">
+            Todos os direitos reservados - Templo Mistério Revelado 2024 ©
+          </p>
+        </div>
+
       </div>
     </div>
   );
